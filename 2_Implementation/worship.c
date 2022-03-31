@@ -4,10 +4,11 @@
 #include<string.h>
 #include "declare.h"
 
+
+float amount;
 void public_worship()
 {
     details();
-    float amount;
     int cont_Load ;
     printf("\nEnter the contracted load(kw): \n");
     scanf("%d", &cont_Load);
