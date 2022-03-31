@@ -4,10 +4,10 @@
 #include<string.h>
 #include "declare.h"
 
+float amount;
 void industry()
 {
     details();
-    float amount=0;
     int cont_Load ; //contracted load
     a:
     printf("\nEnter the contracted load(kw): \n");

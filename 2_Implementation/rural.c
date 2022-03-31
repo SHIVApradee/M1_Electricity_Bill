@@ -4,10 +4,10 @@
 #include<string.h>
 #include "declare.h"
 
+float amount;
 void rural()
 {
     details();
-    float amount=0;
     if(conu_Units <=100 && conu_Units >= 0)
     {
         amount = conu_Units * 2.50; //2.50 in rupees

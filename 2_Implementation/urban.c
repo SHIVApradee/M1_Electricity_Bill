@@ -4,10 +4,10 @@
 #include<string.h>
 #include "declare.h"
 
+float amount;
 void urban()
 {
     details();
-    float amount=0;
     conu_Units;
     if(conu_Units >=0 && conu_Units <=100)
     {
