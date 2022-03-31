@@ -38,16 +38,16 @@ int main()
 void details()
 {
     printf("Enter your area name:\n");
-    scanf("%s", location);
+    scanf("%6s", location);
     printf("Enter your Name:\n");
-    scanf("%s", conu_Name);
+    scanf("%15s", conu_Name);
     printf("Enter your Meter Number:\n");
     scanf("%d", &service_No);
     printf("Enter units consumed:\n");
     scanf("%d", &conu_Units);
     xy:
     printf("Enter email ID :\n");
-    scanf("%s", conu_Email);
+    scanf("%30s", conu_Email);
     char *res;
     res = strstr(conu_Email, "@gmail.com");
     if(!res)
@@ -56,10 +56,10 @@ void details()
         goto xy;
     }
     printf("Enter the permanent address :\n");
-    scanf("%s", conu_Address);
+    scanf("%100s", conu_Address);
     x:
     printf("Enter the phone number : \n");
-    scanf("%s", conu_Mob_No);
+    scanf("%10s", conu_Mob_No);
     if(strlen(conu_Mob_No)==10)
     {
         int i=0;
