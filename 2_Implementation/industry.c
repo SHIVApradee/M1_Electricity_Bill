@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>
 #include<string.h>
 #include "declare.h"
 
@@ -31,7 +30,7 @@ void industry()
         amount = conu_Units * 6.75;
     }
     printf("Enter the Site Name:\n");
-    scanf("%15s", &site_Name);
+    scanf("%15s", site_Name);
     printf("\n=====================================");
     printf("\n  ********ELECTRICITY BILL********");
     printf("\n=====================================\n");

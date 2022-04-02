@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>
 #include<string.h>
 #include "declare.h"
-#include "urban.c"
-#include "rural.c"
-#include "industry.c"
-#include "worship.c"
+extern void rural();
+extern void urban();
+extern void public_worship();
+extern void industry();
+
 
 
 int main()
@@ -78,11 +78,5 @@ void details()
             goto x;
     }
 }
-
-
-
-
-
-
 
 
