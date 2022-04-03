@@ -36,6 +36,9 @@
 * To go with best compiler use VISUAL STUDIO CODE.
 * In Visual Studio code you can also RUN the program in both LINUX and WINDOWS.
 
+## Badges
+[![Build on LINUX](https://github.com/SHIVApradee/M1_Electricity_Bill/actions/workflows/Linux_cpp.yml/badge.svg)](https://github.com/SHIVApradee/M1_Electricity_Bill/actions/workflows/Linux_cpp.yml)
+
 
 ## 🔗 Links
 [![my_portfolio](https://github.com/SHIVApradee/M1_Electricity_Bill.git)
