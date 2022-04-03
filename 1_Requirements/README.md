@@ -30,4 +30,8 @@
 * Platform Independant
 * Proper Guidance
 ### WEAKNESS
-* 
+* Timescale and Deadline
+* Process and System
+### THREATS
+* Security concerns
+* Hardware issue
